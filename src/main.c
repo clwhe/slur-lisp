@@ -12,5 +12,6 @@ int main()
 {
   while (1 == 1)
     rep();
+  /* implement program exit */
   return (0);
 }
