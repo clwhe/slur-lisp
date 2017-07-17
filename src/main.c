@@ -1,1 +1,7 @@
+/* clwhe */
+
 #include <stdio.h>
+
+char* READ(char prompt[]);  /* read in a line */
+char* EVAL(char *ast, void *env);  /* "stub" returns first arg */
+char* PRINT(char *exp);  /* print given string and return it */
